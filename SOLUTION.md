@@ -1,3 +1,5 @@
+This file contains the output of my solution for the "Travelling Salesperson" problem.
+
 # Traveling Salesperson
 
 A traveling salesperson has a list of seven cities to visit exactly once during their route. The salesperson wants to take the shortest route possible.
@@ -56,7 +58,32 @@ There are two things you should modify from what you did in exercise 1:
 2. Set up your sampler in the ``get_sampler`` function to run the simulated annealing algorithm.
 
 ## Solution ``compare_solver_exercise_solution.py``
+The output is as follows:
 
+---
+Route:  [6, 3, 2, 5, 4, 0, 1]
+
+Cost:  7506.0
+
+---
+
+#### Original
+![Original](images/original_graph_simulated.png "Original")
+
+#### Route
+![Route](images/tsp_route_simulated.png "Route")
+
+An alternate output is as follows:
+
+---
+Route:  [2, 4, 1, 3, 0, 6, 5]
+
+Cost:  6377.0
+
+---
+
+#### Route
+![Route](images/tsp_route_simulated_1.png "Route")
 
 
 ## License
